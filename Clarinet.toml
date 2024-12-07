@@ -14,6 +14,11 @@ epoch = 2.5
 path = 'contracts/storage-token.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.time-capsule]
+path = 'contracts/time-capsule.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
